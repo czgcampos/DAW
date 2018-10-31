@@ -1,0 +1,602 @@
+[
+    {
+        "ano": "1993",
+        "pubs": [
+            {
+                "id": "Ram93",
+                "titulo": "Um Compilador para o GLiTCH"
+            },
+            {
+                "id": "VECPAR93",
+                "titulo": "A Heterogeneous Computer Vision Architecture: Implementation Issues"
+            }
+        ]
+    },
+    {
+        "ano": "1995",
+        "pubs": [
+            {
+                "id": "RH94",
+                "titulo": "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização"
+            },
+            {
+                "id": "RAH95",
+                "titulo": "DAVID, Algebraic Specification of Documents"
+            },
+            {
+                "id": "SRFP95",
+                "titulo": "A Heterogeneous Computer Vision Architecture: Implementation Issues"
+            }
+        ]
+    },
+    {
+        "ano": "1996",
+        "pubs": [
+            {
+                "id": "RAH96",
+                "titulo": "Document Semantics: two approaches"
+            },
+            {
+                "id": "Ram96",
+                "titulo": "DSSSL: basic topics"
+            }
+        ]
+    },
+    {
+        "ano": "1997",
+        "pubs": [
+            {
+                "id": "LRH97",
+                "titulo": "INES, an Environment for Structured Editions of SGML Documents"
+            },
+            {
+                "id": "RRAH97",
+                "titulo": "SGML Documents: Where Does Quality Go?"
+            }
+        ]
+    },
+    {
+        "ano": "1998",
+        "pubs": [
+            {
+                "id": "RAH1998",
+                "titulo": "Algebraic Specification of Documents"
+            },
+            {
+                "id": "RH98",
+                "titulo": "Qualidade na Publicação Electrónica: como controlá-la?"
+            },
+            {
+                "id": "RLH98",
+                "titulo": "Generating SGML specific editors: from DTDs to Attribute Grammars"
+            },
+            {
+                "id": "RHb98",
+                "titulo": "Beyond DTDs: Constraining Data Content"
+            },
+            {
+                "id": "RHHRAF98",
+                "titulo": "Adapting Museum Structures for the Web: No Changes Needed!"
+            },
+            {
+                "id": "RH98b",
+                "titulo": "Qualidade na Publicação Electrónica: como controlá-la?"
+            },
+            {
+                "id": "RH98c",
+                "titulo": "Informatics and Archives: a present needed symbiosis"
+            },
+            {
+                "id": "RH98d",
+                "titulo": "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga"
+            },
+            {
+                "id": "Ram98",
+                "titulo": "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?"
+            }
+        ]
+    },
+    {
+        "ano": "1999",
+        "pubs": [
+            {
+                "id": "RARH98",
+                "titulo": "SGML Documents: Where does quality go?"
+            },
+            {
+                "id": "Ram99",
+                "titulo": "Recovering Old Paper Historical Documents Through SGML/XML Modelling"
+            },
+            {
+                "id": "RH99",
+                "titulo": "XML::DT - a Perl Down Translation Module"
+            },
+            {
+                "id": "Ram99b",
+                "titulo": "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação"
+            }
+        ]
+    },
+    {
+        "ano": "2000",
+        "pubs": [
+            {
+                "id": "Ram2000",
+                "titulo": "Anotação Estrutural de Documentos e sua Semântica"
+            },
+            {
+                "id": "JHR00",
+                "titulo": "XML and Semantic Validation"
+            }
+        ]
+    },
+    {
+        "ano": "2001",
+        "pubs": [
+            {
+                "id": "Ram01",
+                "titulo": "Constraining Content: specification and processing"
+            }
+        ]
+    },
+    {
+        "ano": "2002",
+        "pubs": [
+            {
+                "id": "RH2002",
+                "titulo": "XML e XSL: da teoria à prática"
+            },
+            {
+                "id": "JLRH02",
+                "titulo": "XCSL: XML Constraint Specification Language"
+            },
+            {
+                "id": "JLRHb02",
+                "titulo": "Bidirectional Conversion between XML Documents and Relational Data Bases"
+            },
+            {
+                "id": "JLRHc02",
+                "titulo": "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema"
+            },
+            {
+                "id": "JLRH02b",
+                "titulo": "XCSL tutorial"
+            }
+        ]
+    },
+    {
+        "ano": "2003",
+        "pubs": [
+            {
+                "id": "RS2003",
+                "titulo": "Electronic Publishing of ADB editions"
+            },
+            {
+                "id": "RLH2003",
+                "titulo": "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites"
+            },
+            {
+                "id": "RLH03",
+                "titulo": "Ontology driven websites with Topic Maps"
+            },
+            {
+                "id": "JLRH03",
+                "titulo": "XCSL: XML Constraint Specification Language"
+            },
+            {
+                "id": "LRH03",
+                "titulo": "XML Topic Map Builder: Specification and Generation"
+            },
+            {
+                "id": "Ram03",
+                "titulo": "O XML nos curriculae das licenciaturas em informática"
+            },
+            {
+                "id": "LRH03b",
+                "titulo": "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps"
+            },
+            {
+                "id": "LRH03c",
+                "titulo": "Geração automática de interfaces Web para sistemas de informação: Metamorphosis"
+            },
+            {
+                "id": "SMR03",
+                "titulo": "Xexam: uma linguagem de suporte para exames online (e-learning)"
+            },
+            {
+                "id": "JRH03",
+                "titulo": "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de Especificação de Restrições"
+            },
+            {
+                "id": "RHLA03",
+                "titulo": "XATA2003 - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "RLH03b",
+                "titulo": "Adrian: a platform for E-Learning Content Prodution"
+            }
+        ]
+    },
+    {
+        "ano": "2004",
+        "pubs": [
+            {
+                "id": "LR04",
+                "titulo": "Web Services: Metodologias de Desenvolvimento"
+            },
+            {
+                "id": "FR04",
+                "titulo": "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo"
+            },
+            {
+                "id": "LRH04",
+                "titulo": "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação"
+            },
+            {
+                "id": "RTFR04",
+                "titulo": "Gerador de Web Services para cadeias de transformações de documentos XML"
+            },
+            {
+                "id": "MRH04",
+                "titulo": "Comparação de Linguagens para descrição de Interfaces baseadas em XML"
+            },
+            {
+                "id": "RS04",
+                "titulo": "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "FR04b",
+                "titulo": "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE"
+            },
+            {
+                "id": "RLH04",
+                "titulo": "Adrian - E-Learning Content Production (creating online exams)"
+            },
+            {
+                "id": "LSRH04",
+                "titulo": "Using the Ontology Paradigm to integrate Information Systems"
+            },
+            {
+                "id": "LRH04-Clei",
+                "titulo": "Extração de Topic Maps no Oveia: Especificação e Processamento"
+            },
+            {
+                "id": "RHL04-eLes",
+                "titulo": "ADRIAN: Sistema de Suporte à Produção de Conteúdos"
+            },
+            {
+                "id": "FR04-capsi",
+                "titulo": "DigitArq: Creating a Historical Digital Archive"
+            },
+            {
+                "id": "LRH04-XMLw",
+                "titulo": "XTche - A Language for Topic Maps Schema and Constraints"
+            },
+            {
+                "id": "LRH04-WWS",
+                "titulo": "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps"
+            }
+        ]
+    },
+    {
+        "ano": "2005",
+        "pubs": [
+            {
+                "id": "RSL05",
+                "titulo": "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "Ram05",
+                "titulo": "Document Composer: uma aplicação XML para extracção de informação de repositórios XML"
+            },
+            {
+                "id": "LRH05",
+                "titulo": "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis"
+            },
+            {
+                "id": "LRH05b",
+                "titulo": "Constraining XML Topic Maps with XTche"
+            },
+            {
+                "id": "RL05",
+                "titulo": "Web Services: Aplicações Distribuídas sobre Protocolos Internet"
+            },
+            {
+                "id": "RLH05",
+                "titulo": "Constraining Topic Maps: A TMCL declarative implementation"
+            },
+            {
+                "id": "RLH05b",
+                "titulo": "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources"
+            },
+            {
+                "id": "FBR05-CAPSI",
+                "titulo": "Avaliação Automática de Migração em Redes Distribuídas de Conversores"
+            },
+            {
+                "id": "RLH05-revAPSI17",
+                "titulo": "Geração automática de interfaces Web para Sistemas de Informação: Metamorphosis"
+            },
+            {
+                "id": "LRH05-CLEI",
+                "titulo": "Ulisses: Um Navegador Conceptual para Topic Maps"
+            }
+        ]
+    },
+    {
+        "ano": "2006",
+        "pubs": [
+            {
+                "id": "LRH06-SBSI06",
+                "titulo": "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps"
+            },
+            {
+                "id": "RFCFBC06",
+                "titulo": "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais"
+            },
+            {
+                "id": "RLS06",
+                "titulo": "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "RFFLS06",
+                "titulo": "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos"
+            },
+            {
+                "id": "FBR06-Ariadne",
+                "titulo": "A foundation for automatic digital preservation"
+            },
+            {
+                "id": "RLH06",
+                "titulo": "Lecture Notes in Computer Science"
+            },
+            {
+                "id": "FBR06-XATA",
+                "titulo": "CRIB : a service oriented architecture for digital preservation outsourcing"
+            },
+            {
+                "id": "RD06-XATA",
+                "titulo": "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web"
+            },
+            {
+                "id": "LRH06-XATA",
+                "titulo": "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração"
+            }
+        ]
+    },
+    {
+        "ano": "2007",
+        "pubs": [
+            {
+                "id": "LGRH07-CLEI",
+                "titulo": "Using Web Services to put Metamorphosis on the Web"
+            },
+            {
+                "id": "LATRH07-CLEI",
+                "titulo": "Implementing TMCL: XTche - a topic map schema and constraint specification language"
+            },
+            {
+                "id": "LARH07-EPIA",
+                "titulo": "Topic Maps Constraint Languages: understanding and comparing"
+            },
+            {
+                "id": "LMMFRH07-TMRA",
+                "titulo": "Comparing Topic Maps Constraint Specification Languages"
+            },
+            {
+                "id": "LRH07-SEMINFO",
+                "titulo": "Estruturando o conhecimento com a norma ISO 13250 Topic Maps"
+            },
+            {
+                "id": "RFFC07-EML",
+                "titulo": "Relational database preservation through XML modelling"
+            },
+            {
+                "id": "RLH07-EML",
+                "titulo": "Topic Maps applied to PubMed"
+            },
+            {
+                "id": "LPRH07-XATA",
+                "titulo": "Navegando na Rede Semântica dos Topic Maps com o Ulisses"
+            },
+            {
+                "id": "LPRH07-TM",
+                "titulo": "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche"
+            },
+            {
+                "id": "FBR07-IJDL",
+                "titulo": "An intelligent decision support system for digital preservation"
+            },
+            {
+                "id": "FCRBCF07",
+                "titulo": "RODA : Repositório de Objectos Digitais Autênticos"
+            },
+            {
+                "id": "SFRL07",
+                "titulo": "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo"
+            },
+            {
+                "id": "RFCFBC07",
+                "titulo": "XML e preservação digital"
+            },
+            {
+                "id": "RLC07",
+                "titulo": "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "FBR07",
+                "titulo": "CRiB : preservation services for Digital Repositories"
+            }
+        ]
+    },
+    {
+        "ano": "2008",
+        "pubs": [
+            {
+                "id": "LRHGT08",
+                "titulo": "A Framework to specify, extract and manage Topic Maps driven by ontologies"
+            },
+            {
+                "id": "BKRFBR08",
+                "titulo": "Distributed Preservation Services: Integrating Planning and Actions"
+            },
+            {
+                "id": "RFFCBC08",
+                "titulo": "RODA and Crib: A Service-Oriented Digital Repository"
+            },
+            {
+                "id": "RLA08",
+                "titulo": "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"
+            },
+            {
+                "id": "LMMVRH08-XATA",
+                "titulo": "Generating a Semantic Network for PubMed"
+            },
+            {
+                "id": "FRF-XATA",
+                "titulo": "Creating a National Federation of Archives using OAI-PMH"
+            }
+        ]
+    },
+    {
+        "ano": "2009",
+        "pubs": [
+            {
+                "id": "FR09",
+                "titulo": "Relational databases digital preservation"
+            },
+            {
+                "id": "GARH09",
+                "titulo": "Topic maps constraint languages : understanding and comparing"
+            }
+        ]
+    },
+    {
+        "ano": "2010",
+        "pubs": [
+            {
+                "id": "FR10",
+                "titulo": "Significant Properties in the Preservation of Relational Databases"
+            },
+            {
+                "id": "RQR10",
+                "titulo": "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa"
+            },
+            {
+                "id": "FFR10",
+                "titulo": "DigitArq e o novo módulo de interoperabilidade OAI-PMH"
+            }
+        ]
+    },
+    {
+        "ano": "2011",
+        "pubs": [
+            {
+                "id": "FR11e",
+                "titulo": "New dimension in relational database preservation: raising the abstraction level"
+            },
+            {
+                "id": "FR11d",
+                "titulo": "Relational Databases Conceptual Preservation"
+            },
+            {
+                "id": "FR11c",
+                "titulo": "Using Ontologies to Abstract Relational Databases Conceptual Model"
+            },
+            {
+                "id": "FR11b",
+                "titulo": "Preservation of Relational Databases"
+            },
+            {
+                "id": "FR11",
+                "titulo": "Using Ontologies in Database Preservation"
+            }
+        ]
+    },
+    {
+        "ano": "2012",
+        "pubs": [
+            {
+                "id": "guimaramus2012",
+                "titulo": "MuseCode: à procura da linearidade na música tonal"
+            },
+            {
+                "id": "bad2012",
+                "titulo": "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE"
+            },
+            {
+                "id": "icadl2012",
+                "titulo": "Design and architecture of a novel preservation watch system"
+            },
+            {
+                "id": "ipres2012",
+                "titulo": "Preservation watch : what to monitor and how"
+            }
+        ]
+    },
+    {
+        "ano": "2013",
+        "pubs": [
+            {
+                "id": "IGI2013",
+                "titulo": "Innovations in XML Applications and Metadata Management: Advancing Technologies"
+            },
+            {
+                "id": "ipres2013",
+                "titulo": "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation"
+            },
+            {
+                "id": "or2013",
+                "titulo": "Supporting the preservation lifecycle in repositories"
+            },
+            {
+                "id": "archiving2013",
+                "titulo": "Guidelines for legacy repository migration"
+            }
+        ]
+    },
+    {
+        "ano": "2014",
+        "pubs": [
+            {
+                "id": "dlm2014",
+                "titulo": "Database Preservation Toolkit: a flexible tool to normalize and give access to databases"
+            }
+        ]
+    },
+    {
+        "ano": "2015",
+        "pubs": [
+            {
+                "id": "bad2015b",
+                "titulo": "PT-CRIS: Um miradouro sobre o universo científico nacional"
+            },
+            {
+                "id": "bad2015a",
+                "titulo": "Uma ontologia para os processos de negócio da Administração"
+            },
+            {
+                "id": "edicic2015",
+                "titulo": "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal"
+            }
+        ]
+    },
+    {
+        "ano": "2016",
+        "pubs": [
+            {
+                "id": "iPRES2016",
+                "titulo": "Database Preservation Toolkit: A relational database conversion and normalization tool"
+            }
+        ]
+    },
+    {
+        "ano": "2017",
+        "pubs": [
+            {
+                "id": "cisti2017",
+                "titulo": "RODA-in: A generic tool for the mass creation of Submission Information Packages"
+            }
+        ]
+    }
+]

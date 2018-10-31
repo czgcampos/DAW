@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT processo (cabecalho,descritivoClasse,contextoAvaliacao?,decisoesAvaliacao?) >
+<!ELEMENT cabecalho (estado,pai?,descendencia?,codigo,título) >
+<!ELEMENT estado (#PCDATA) >
+<!ELEMENT pai (#PCDATA) >
+<!ELEMENT descendencia (descendente*) >
+<!ELEMENT descendente (#PCDATA) >
+<!ELEMENT codigo (#PCDATA) >
+<!ELEMENT título (#PCDATA) >
+
+<!ATTLIST descendente 
+              url CDATA #REQUIRED>
+<!ATTLIST pai 
+              url CDATA #REQUIRED>
+
+<!ELEMENT descritivoClasse (descrição,notas,exemplos,exclusoes,termos?) >
+<!ELEMENT descrição (#PCDATA) >
+<!ELEMENT notas (nota+) >
+<!ELEMENT nota (#PCDATA) >
+<!ELEMENT exemplos (exemplo+) >
+<!ELEMENT exemplo (#PCDATA) >
+<!ELEMENT exclusoes (exclusao+) >
+<!ELEMENT exclusao (#PCDATA) >
+<!ELEMENT termos (termo) >
+<!ELEMENT termo (#PCDATA) >
+
+<!ELEMENT contextoAvaliacao (tipo,transversal,donos,participantes,relacionados,legislacoes) >
+<!ELEMENT tipo (#PCDATA) >
+<!ELEMENT transversal (#PCDATA) >
+<!ELEMENT donos (dono+) >
+<!ELEMENT dono (#PCDATA) >
+<!ATTLIST dono 
+              url CDATA #REQUIRED>
+<!ELEMENT participantes (participante+) >
+<!ELEMENT participante (#PCDATA) >
+<!ATTLIST participante 
+              url CDATA #REQUIRED
+              tipo CDATA #REQUIRED>
+<!ELEMENT relacionados (relacionado+) >
+<!ELEMENT relacionado (#PCDATA) >
+<!ATTLIST relacionado
+              url CDATA #REQUIRED
+              tipo CDATA #REQUIRED>
+<!ELEMENT legislacoes (legislacao+) >
+<!ELEMENT legislacao (#PCDATA) >
+<!ATTLIST legislacao
+              url CDATA #REQUIRED>
+
+<!ELEMENT decisoesAvaliacao (administracao,destinoFinal) >
+<!ELEMENT administracao (prazo,contagem,justificação) >
+<!ELEMENT prazo (#PCDATA) >
+<!ELEMENT contagem (#PCDATA) >
+<!ELEMENT justificação (#PCDATA) >
+<!ELEMENT destinoFinal (destino,justificação) >
+<!ELEMENT destino (#PCDATA) >

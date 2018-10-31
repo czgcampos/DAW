@@ -1,0 +1,24 @@
+
+			{
+			"type":"inproceedings", 
+			"id": "RH99",
+			"authors":[
+			
+						"José Carlos Ramalho"
+					,
+						"José João Almeida"
+					
+			],
+			
+		"title":"XML::DT - a Perl Down Translation Module"
+		,
+		"booktitle":"XML Europe'99"
+		,
+		"year":"1999"
+		,
+		"address":"Granada - Espanha"
+		, 
+		"doi":"http://hdl.handle.net/1822/632" 
+		
+			}
+		

@@ -1,0 +1,15 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "Lista de tarefas",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Carlos Campos",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3"
+  }
+}

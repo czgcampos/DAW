@@ -1,0 +1,17 @@
+{
+  "name": "expressApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-express.js",
+  "scripts": {
+    "test": "node server-express.js",
+    "log": "node server-express-log.js",
+    "morgan": "node server-express-morgan.js"
+  },
+  "author": "Carlos Campos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}

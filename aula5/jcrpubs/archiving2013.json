@@ -1,0 +1,15 @@
+﻿{
+    "type": "inproceedings",
+    "id": "archiving2013",
+    "authors": [
+        "Miguel Ferreira",
+        "José Carlos Ramalho",
+        "Luis Faria"
+    ],
+    "title": "\tGuidelines for legacy repository migration",
+    "booktitle": "IS&T Archiving 2013",
+    "address": "Washington DC, Estados Unidos",
+    "year": "2013",
+    "month": "04.02-05",
+    "doi": "http://hdl.handle.net/1822/23978"
+}

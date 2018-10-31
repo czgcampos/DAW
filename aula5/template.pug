@@ -1,0 +1,33 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h1= pub.title
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Chave Citação
+                        td= pub.id
+                    tr
+                        th Autores
+                        td
+                            ul
+                                each a in pub.authors
+                                    li= a
+                    tr
+                        th Ano
+                        td= pub.year
+                    if pub.address
+                        tr
+                            th Local
+                            td= pub.address
+                    if pub.doi
+                        tr
+                            th DOI
+                            td
+                                a(href= pub.doi)= pub.doi
+            footer.w3-container.w3-light-grey
+                address Gerado por PubsApp 
+                a(href='http://localhost:5000') Voltar à página principal

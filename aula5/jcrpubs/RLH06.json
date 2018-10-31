@@ -1,0 +1,42 @@
+
+			{
+			"type":"inbook", 
+			"id": "RLH06",
+			"authors":[
+			
+						"José Carlos Ramalho"
+					,
+						"Giovani Rubert Librelotto"
+					,
+						"Pedro Rangel Henriques"
+					
+			],
+			
+				"editors":[
+				
+							"Lutz Maicher"
+						,
+							"Jack Park"
+						
+				],
+			
+		"title":"Lecture Notes in Computer Science"
+		,
+		"chapter":"Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources"
+		,
+		"pages":"14-25"
+		,
+		"publisher":"Springer-Verlag GmbH"
+		,
+		"year":"2006"
+		,
+		"month":"02"
+		,
+		"volume":"3873 / 2006"
+		,
+		"isbn":"3-540-32527-1"
+		, 
+		"doi":"10.1007/11676904_2" 
+		
+			}
+		

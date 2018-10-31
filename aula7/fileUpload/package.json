@@ -1,0 +1,19 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "Upload de ficheiros",
+  "main": "server-ficheiro-1.js",
+  "scripts": {
+    "test": "node server-ficheiro-1.js",
+    "s2": "node server-ficheiro-2.js",
+    "sexpress": "node server-ficheiro-express.js"
+  },
+  "author": "Carlos Campos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  }
+}

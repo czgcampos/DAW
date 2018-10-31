@@ -1,0 +1,15 @@
+﻿{
+    "type": "inproceedings",
+    "id": "FR10",
+    "authors": [
+        "Ricardo Freitas",
+        "José Carlos Ramalho"
+    ],
+    "title": "Significant Properties in the Preservation of Relational Databases",
+    "booktitle": "Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010",
+    "address": "Glasgow, UK",
+    "month": "09.06",
+    "year": "2010",
+    "isbn": "978-3-642-15463-8",
+    "doi": "http://hdl.handle.net/1822/13702"
+}

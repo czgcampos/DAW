@@ -1,0 +1,14 @@
+{
+  "name": "aula5",
+  "version": "1.0.0",
+  "description": "Servidor de publicações",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Carlos Campos",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}

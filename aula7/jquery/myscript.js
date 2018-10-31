@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$("p").click(function(){
+		$(this).css("color","red");
+	});
+	$("#hide").click(function{
+		$("p").hide()
+	})
+	$("#show").click(function{
+		$("p").show()
+	})
+});

@@ -1,0 +1,30 @@
+
+			{
+			"type":"inproceedings", 
+			"id": "LATRH07-CLEI",
+			"authors":[
+			
+						"Giovani Rubert Librelotto"
+					,
+						"Renato Preigschadt de Azevedo"
+					,
+						"Rogério Correa Turchetti"
+					,
+						"José Carlos Ramalho"
+					,
+						"Pedro Rangel Henriques"
+					
+			],
+			
+		"title":"Implementing TMCL: XTche - a topic map schema and constraint specification language"
+		,
+		"booktitle":"XXXIII Conferencia Latinoamericana de Informática (CLEI2007)"
+		,
+		"year":"2007"
+		,
+		"address":"San José - Costa Rica"
+		, 
+		"doi":"http://hdl.handle.net/1822/7364" 
+		
+			}
+		

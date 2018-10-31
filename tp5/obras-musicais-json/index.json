@@ -1,0 +1,219 @@
+[
+	{
+		"tipo": "Abertura/Concerto",
+		"obras": [
+			{
+				"_id": "m20",
+				"titulo": "Cassiopeia"
+			},
+			{
+				"_id": "m22",
+				"titulo": "Marcha Eslava"
+			},
+			{
+				"_id": "m23",
+				"titulo": "Fate of the Gods"
+			},
+			{
+				"_id": "m26",
+				"titulo": "Cycles and Myths"
+			},
+			{
+				"_id": "m29",
+				"titulo": "Ross Roy"
+			},
+			{
+				"_id": "m31",
+				"titulo": "Highlights from 'Chess'"
+			},
+			{
+				"_id": "m32",
+				"titulo": "Cavalaria Ligeira"
+			},
+			{
+				"_id": "m42",
+				"titulo": "Pilatus: Mountain of Dragons"
+			},
+			{
+				"_id": "m49",
+				"titulo": "Tannhauser Ouverture"
+			},
+			{
+				"_id": "m131",
+				"titulo": "Alvamar Overture"
+			}
+		]
+	},
+	{
+		"tipo": "Ligeiro/Fantasia",
+		"obras": [
+			{
+				"_id": "m28",
+				"titulo": "Abba Mia"
+			},
+			{
+				"_id": "m35",
+				"titulo": "Bands Around the World"
+			},
+			{
+				"_id": "m40",
+				"titulo": "Xutos Medley"
+			},
+			{
+				"_id": "m45",
+				"titulo": "Momentos Menores"
+			},
+			{
+				"_id": "m46",
+				"titulo": "Santana"
+			}
+		]
+	},
+	{
+		"tipo": "Marcha de Concerto/Pasodoble",
+		"obras": [
+			{
+				"_id": "m5",
+				"titulo": "Holiday in Rio"
+			},
+			{
+				"_id": "m21",
+				"titulo": "António Nogueira"
+			},
+			{
+				"_id": "m36",
+				"titulo": "Hispânico"
+			},
+			{
+				"_id": "m43",
+				"titulo": "Marcha Radetzky"
+			},
+			{
+				"_id": "m44",
+				"titulo": "Vila Franca"
+			},
+			{
+				"_id": "m50",
+				"titulo": "Harmonique"
+			}
+		]
+	},
+	{
+		"tipo": "Marcha de Desfile",
+		"obras": [
+			{
+				"_id": "m1",
+				"titulo": "Homenagem a J. Serra"
+			},
+			{
+				"_id": "m2",
+				"titulo": "Armindo Alves"
+			},
+			{
+				"_id": "m3",
+				"titulo": "1989"
+			},
+			{
+				"_id": "m4",
+				"titulo": "Manuel Joaquim ALmeida"
+			},
+			{
+				"_id": "m14",
+				"titulo": "Filarmonia"
+			},
+			{
+				"_id": "m15",
+				"titulo": "Caçadores do I"
+			},
+			{
+				"_id": "m16",
+				"titulo": "Homenagem ao Dr Manuel Vaz"
+			},
+			{
+				"_id": "m17",
+				"titulo": "Homenagem a Vila Verde"
+			},
+			{
+				"_id": "m18",
+				"titulo": "12 de Abril"
+			},
+			{
+				"_id": "m19",
+				"titulo": "Tarântula"
+			},
+			{
+				"_id": "m33",
+				"titulo": "Paquito Chocolatero"
+			},
+			{
+				"_id": "m34",
+				"titulo": "Xabia"
+			}
+		]
+	},
+	{
+		"tipo": "Marcha de Procissão",
+		"obras": [
+			{
+				"_id": "m6",
+				"titulo": "São Martinho"
+			},
+			{
+				"_id": "m7",
+				"titulo": "Avé Maria"
+			},
+			{"_id": "m8",
+				"titulo": "Corpo Místico"
+			},
+			{
+				"_id": "m9",
+				"titulo": "Súplica"
+			},
+			{
+				"_id": "m10",
+				"titulo": "Senhora Nossa"
+			},
+			{
+				"_id": "m11",
+				"titulo": "Invocação a Deus"
+			},
+			{
+				"_id": "m12",
+				"titulo": "São Bento"
+			},
+			{
+				"_id": "m13",
+				"titulo": "Casa de S. Paulo"
+			},
+			{
+				"_id": "m48",
+				"titulo": "Transfiguração"
+			}
+		]
+	},
+	{
+		"tipo": "Rapsódia",
+		"obras": [
+			{
+				"_id": "m24",
+				"titulo": "Vamos à Romaria"
+			},
+			{
+				"_id": "m25",
+				"titulo": "Português Suave"
+			},
+			{
+				"_id": "m27",
+				"titulo": "Canções da Tradição"
+			},
+			{
+				"_id": "m41",
+				"titulo": "Sonhos de Portugal"
+			},
+			{
+				"_id": "m47",
+				"titulo": "Bailar em Nespereira"
+			}
+		]
+	}
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <identificador>DAW-2018-TP6</identificador>
+        <titulo>Sexto trabalho prático de Desenvolvimento de aplicações WEB</titulo>
+        <subtitulo>Desenvolvimento de um servidor que usa templates em pug</subtitulo>
+        <dinicio>23/10/2018</dinicio>
+        <dfim>31/10/2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <identificador>a74745</identificador>
+            <nome>Carlos José Gomes Campos</nome>
+            <email>a74745@alunos.uminho.pt</email>
+            <website>https://github.com/czgcampos</website>
+            <foto caminho="foto.jpeg">Foto de Carlos Campos</foto> 
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Este trabalho prático consiste em elaborar um servidor em <i>node js</i>, que através de um formulário <i>HTML</i>, vai inserir informação num ficheiro <i>JSON</i>. A renderização é feita com ficheiros <i>PUG</i></para>
+        <para>É também usada a folha de estilos da <i>w3schools</i>, que está presente na pasta stylesheets. O servidor está à escuta na porta 4007.</para>
+        <para>A <b>TasksApp</b> faz a gestão de tarefas do dia-a-dia, semelhante às aplicações dos smartphones. Cada tarefa tem uma data de registo, date de conclusão, descrição, e um tipo</para>
+    </resumo>
+    <resultados>
+        <resultado url="stylesheets">Pasta com os ficheiros CSS</resultado>
+        <resultado url="stylesheets/w3.css">w3.css</resultado>
+        <resultado url="manifesto-tp6.xml">manifesto-tp6.xml</resultado>
+        <resultado url="manifesto-tp6.html">manifesto-tp6.html</resultado>
+        <resultado url="tarefas.json">tarefas.json</resultado>
+        <resultado url="server.js">server.js</resultado>
+        <resultado url="index.pug">index.pug</resultado>
+        <resultado url="layout.pug">layout.pug</resultado>
+        <resultado url="erro.pug">erro.pug</resultado>
+        <resultado url="form-tarefa.pug">form-tarefa.pug</resultado>
+        <resultado url="tarefa-registada.pug">tarefa-registada.pug</resultado>
+    </resultados>
+</manifesto>

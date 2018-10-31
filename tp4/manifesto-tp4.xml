@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <identificador>DAW-2018-TP4</identificador>
+        <titulo>Quarto trabalho prático de Desenvolvimento de aplicações WEB</titulo>
+        <subtitulo>Desenvolvimento de StyleSheets para a criação de um site com várias páginas e de um servidor que faz a transição entre essas</subtitulo>
+        <dinicio>9/10/2018</dinicio>
+        <dfim>16/10/2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <identificador>a74745</identificador>
+            <nome>Carlos José Gomes Campos</nome>
+            <email>a74745@alunos.uminho.pt</email>
+            <website>https://github.com/czgcampos</website>
+            <foto caminho="foto.jpeg">Foto de Carlos Campos</foto> 
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Este trabalho prático consiste em elaborar uma stylesheet <i>XSLT</i>, para um <i>XML</i> dos <b>Arquiositios do NW português</b>.</para>
+        <para>O site gerado, vai conter várias páginas, que serão todas geradas automaticamente dentro de uma pasta, denominada <b>website.</b></para>
+        <para>Também é preciso codificar um servidor para prestar o serviço, de deslocação entre as paginas</para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto-tp4.xml">XML do Manifesto</resultado>
+        <resultado url="manifesto-tp4.html">HTML do Manifesto</resultado>
+        <resultado url="arq.xsl">Stylesheet do ficheiro arq.xml</resultado>
+        <resultado url="website">Pasta com as páginas do site</resultado>
+        <resultado url="server.js">Servidor node.js</resultado>
+    </resultados>
+</manifesto>

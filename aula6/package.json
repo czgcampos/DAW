@@ -1,0 +1,18 @@
+{
+  "name": "aula6",
+  "version": "1.0.0",
+  "description": "Formulario",
+  "main": "server-aluno-1.js",
+  "scripts": {
+    "s1": "node server-aluno-1.js",
+    "s2": "node server-aluno-2.js",
+    "s3": "node server-aluno-3.js",
+    "dev": "nodemon server-aluno-1.js"
+  },
+  "author": "Carlos Campos",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3"
+  }
+}

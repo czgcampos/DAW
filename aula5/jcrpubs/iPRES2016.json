@@ -1,0 +1,30 @@
+
+			{
+			"type":"inproceedings", 
+			"id": "iPRES2016",
+			"authors":[
+			
+						"Bruno Ferreira"
+					,
+						"Luis Faria"
+					,
+						"José Carlos Ramalho"
+					,
+						"Miguel Ferreira"
+					
+			],
+			
+		"title":"Database Preservation Toolkit: A relational database conversion and normalization tool"
+		,
+		"booktitle":"iPRES: 13th International Conference on Digital Preservation"
+		,
+		"address":"Bern, Switzerland"
+		,
+		"year":"2016"
+		,
+		"month":"10.04"
+		, 
+		"doi":"http://hdl.handle.net/1822/43479" 
+		
+			}
+		

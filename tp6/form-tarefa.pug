@@ -1,0 +1,28 @@
+extends layout
+block content
+	.w3-container
+		.w3-card-4
+			header.w3-container.w3-teal
+				h3 Registo de uma tarefa
+			.w3-container
+				form.w3-container(action='/processaForm' method='GET')
+					label.w3-teal
+						b Data de registo
+					input.w3-input.w3-border.w3-light-grey(type='date' name='dataReg')
+					label.w3-teal
+						b Data de conclusão
+					input.w3-input.w3-border.w3-light-grey(type='date' name='dataConc')
+					label.w3-teal
+						b Descrição
+					textarea.w3-border.w3-light-grey(name='descrip' rows='10' cols='132')
+					label.w3-teal
+						b Tipo
+					select.w3-select.w3-border.w3-light-grey(name='tipo')
+						option(value='Universidade') Universidade
+						option(value='Casa') Casa
+						option(value='Trabalho') Trabalho
+						option(value='Outro') Outro
+					input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+			footer.w3-container.w3-teal
+				address Gerado po TasksApp: 
+					a(href='/') Voltar à página principal

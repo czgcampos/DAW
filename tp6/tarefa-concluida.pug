@@ -1,0 +1,23 @@
+extends layout
+block content
+	.w3-container
+		.w3-card-4
+			header.w3-container.w3-teal
+				h3 Tarefa concluída
+			.w3-container
+				table.w3-table-all
+						tr
+							th.w3-col.m4.l3 Data de Registo
+							td.w3-col.m8.l9= tarefa.dataReg
+						tr
+							th.w3-col.m4.l3 Data de Conclusão
+							td.w3-col.m8.l9= tarefa.dataConc
+						tr
+							th.w3-col.m4.l3 Descrição
+							td.w3-col.m8.l9= tarefa.descrip
+						tr
+							th.w3-col.m4.l3 Tipo
+							td.w3-col.m8.l9= tarefa.tipo
+			footer.w3-container.w3-teal
+				address Gerado po TasksApp: 
+					a(href='/') Voltar à página principal

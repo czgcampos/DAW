@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "manifesto.dtd">
+<manifesto>
+    <meta>
+        <identificador>TP2</identificador>
+        <titulo>Segundo trabalho prático</titulo>
+        <subtitulo>Desenvolvimento de aplicações WEB</subtitulo>
+        <dinicio>18/09/2018</dinicio>
+        <dfim>25/09/2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <identificador>a74745</identificador>
+            <nome>Carlos José Gomes Campos</nome>
+            <email>a74745@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/carlos.jg.campos</website>
+            <foto caminho="foto.jpeg">Foto de Carlos Campos</foto> 
+        </membro>
+    </equipa>
+    <resumo>
+        <para>O XML, validado pelo schema, juntamente com o potente processamento via XSLT, permite dispor de <i>facilidades acrescidas</i> no tratamento de informação de uma forma <b>standard e partilhável</b>. Estas são, além de outras evidentes vantagens, as que abrem caminho a uma mais que provável evolução desta tecnologia nos círculos comerciais e de investigação. Outro facto importante, diz respeito à substituição de interfaces EDI por XML em aplicações bussiness oriented.</para>
+        <para>O trabalho apresentado contempla um <b>schema, uma stylesheet, e a instância do schema</b> em XML. A instância é o próprio relatório.</para>
+        <para>O trabalho pretende definir uma <i>estrutura expedita e funcional</i>, passível de ser aplicada a um trabalho descritivo, como por exemplo uma tese. Não é objectivo do trabalho criar uma implementação sistemática de todos os objectos possíveis, mas sim criar algumas utilizações mais comuns para exemplificar a potência destas linguagens.</para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto-tp2.xml"> XML do Manifesto </resultado>
+        <resultado url="manifesto.dtd"> DTD para o Manifesto </resultado>
+        <resultado url="manifesto.xsl"> XLST para o Manifesto </resultado>
+        <resultado url="manifesto-tp2.html"> HTML do Manifesto </resultado>
+        <resultado url="pn.dtd">DTD para o processo de negócio </resultado>
+    </resultados>
+</manifesto>

@@ -1,0 +1,35 @@
+extends layout
+block content
+	.w3-container
+		.w3-card-4
+			header.w3-container.w3-teal
+				div.w3-row
+					div.w3-col.m8.l11
+						p
+							h3 Página de tarefas
+					div.w3-col.m4.l1
+						p
+							form.w3-container(action='/registo')
+								input.w3-btn.w3-blue-grey(type='submit' value='+')
+			.w3-container
+					ul.w3.ul
+						each tar in lista
+							if tar.estado
+								li
+									table.w3-table-all
+										tr
+											th.w3-col.m4.l3 Data de Registo
+											td.w3-col.m8.l9= tar.dataReg
+										tr
+											th.w3-col.m4.l3 Data de Conclusão
+											td.w3-col.m8.l9= tar.dataConc
+										tr
+											th.w3-col.m4.l3 Descrição
+											td.w3-col.m8.l9= tar.descrip
+										tr
+											th.w3-col.m4.l3 Tipo
+											td.w3-col.m8.l9= tar.tipo
+									p
+										a(href='/tarefaConcluida?dataReg='+tar.dataReg+'&dataConc='+tar.dataConc+'&descrip='+tar.descrip+'&tipo='+tar.tipo) Concluída
+			footer.w3-container.w3-teal
+				address Gerado por TasksApp

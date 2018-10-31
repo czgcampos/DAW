@@ -1,0 +1,22 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-red
+                h1 Obras Musicais
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Tipo
+                        th Obras
+                    each tipo in ind
+                        tr
+                            td= tipo.tipo
+                            td
+                                ul
+                                    each o in tipo.obras
+                                        li
+                                            a(href='http://localhost:5001/obra/' + o._id)= o.titulo
+            footer.w3-container.w3-light-grey
+                address Gerado por ObrasApp

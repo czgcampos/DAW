@@ -1,0 +1,22 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h1 Registo de Publicações do JCR
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Ano
+                        th Publicações
+                    each ano in ind
+                        tr
+                            td= ano.ano
+                            td
+                                ul
+                                    each p in ano.pubs
+                                        li
+                                            a(href='http://localhost:5000/pub/' + p.id)= p.titulo
+            footer.w3-container.w3-light-grey
+                address Gerado por PubsApp 
