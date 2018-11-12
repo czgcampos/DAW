@@ -1,11 +1,11 @@
-$(document).ready(function(){
-	$("p").click(function(){
+$(()=>{
+	$("p").click(()=>{
 		$(this).css("color","red");
-	});
-	$("#hide").click(function{
+	})
+	$("#hide").click(()=>{
 		$("p").hide()
 	})
-	$("#show").click(function{
+	$("#show").click(()=>{
 		$("p").show()
 	})
 });

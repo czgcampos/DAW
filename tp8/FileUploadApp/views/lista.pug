@@ -1,0 +1,9 @@
+tr
+    th Ficheiro
+    th Descrição
+each f in lista
+    tr 
+        -var link = '/images/'+f.nome;
+        td
+            a(href=link)=f.nome
+        td= f.desc
