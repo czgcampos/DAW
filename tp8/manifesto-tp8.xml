@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <identificador>DAW-2018-TP8</identificador>
+        <titulo>Oitavo trabalho prático de Desenvolvimento de aplicações WEB</titulo>
+        <subtitulo>Desenvolvimento de um servidor que faz upload de ficheiros usando AJAX</subtitulo>
+        <dinicio>6/11/2018</dinicio>
+        <dfim>13/11/2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <identificador>a74745</identificador>
+            <nome>Carlos José Gomes Campos</nome>
+            <email>a74745@alunos.uminho.pt</email>
+            <website>https://github.com/czgcampos</website>
+            <foto caminho="foto.jpeg">Foto de Carlos Campos</foto> 
+        </membro>
+    </equipa>
+    <resumo>
+        <para>Este trabalho prático consiste em elaborar um servidor em <i>node js</i>, que através de um formulário <i>HTML</i>, vai carregar um ficheiro numa pasta, e vai inserir infomação desse mesmo, num ficheiro <i>JSON</i>. A renderização é feita com ficheiros <i>PUG</i></para>
+        <para>É também usada a folha de estilos da <i>w3schools</i>, que está presente na pasta public/stylesheets. O servidor está à escuta na porta 4008.</para>
+        <para>A página principal da <b>FileUploadApp</b> apresenta também a lista dos ficheiros carregado, que estão guradados na pasta public/images. Sendo que esta lista é recarregada usado atecnologia <i>AJAX</i>.</para>
+    </resumo>
+    <resultados>
+        <resultado url="FileUploadApp">FileUploadApp</resultado>
+        <resultado url="manifesto-tp8.xml">manifesto-tp8.xml</resultado>
+        <resultado url="manifesto-tp8.html">manifesto-tp8.html</resultado>
+    </resultados>
+</manifesto>
