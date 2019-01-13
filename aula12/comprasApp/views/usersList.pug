@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    header.w3-container.w3-teal
+        h1 Lista de utilizadores
+    .w3-container
+        table.w3-table.w3-all
+            tr
+                th username
+                th password
+            each user in list
+                tr
+                    td= user.username
+                    td= user.password
+    footer.w3-container.w3-teal
+        address Gerado por lista de compras APP

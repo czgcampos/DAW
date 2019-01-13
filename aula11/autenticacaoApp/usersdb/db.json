@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "A4140",
+      "email": "A4140@alunos.uminho.pt",
+      "password": "a1"
+    },
+    {
+      "id": "A11111",
+      "email": "A11111@alunos.uminho.pt",
+      "password": "a2"
+    },
+    {
+      "email": "A22222@alunos.uminho.pt",
+      "password": "a3",
+      "id": "A22222"
+    },
+    {
+      "email": "",
+      "password": "a3",
+      "id": "uuu"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  header.w3-container.w3-teal
+    h1 Registo
+  .w3-container
+    .w3-card-4
+      form.w3-form(action='/users', method='POST')
+        input.w3-input(name='nome' type='text' placeholder='username')
+        input.w3-input(name='username' type='text' placeholder='username')
+        input.w3-input(name='password' type='password' placeholder='password')
+        input.w3-btn(type='submit' value='registar')
+  footer.w3-container.w3-teal
+    address Gerado por Lista de compras app
+

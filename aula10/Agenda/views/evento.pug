@@ -1,0 +1,23 @@
+extends layout
+block content
+  .w3-container
+    h1 Evento: #{evento._id}
+    table.w3-table-all
+      tr
+        th Data
+        td= evento.data
+      tr
+        th Tipo
+        td= evento.tipo
+    
+      if evento.designacao
+        tr
+          th Designação
+          td= evento.designacao
+      if evento.local
+        tr
+          th Local
+          td= evento.local
+          
+
+          

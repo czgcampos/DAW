@@ -1,0 +1,10 @@
+extends layout
+block content
+  h1 Lista de utilizadores
+  table(border="1")
+    each u in usersList
+        tr
+            td= u.id
+            td= u.email
+            td= u.password
+            

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    header.w3-container.w3-teal
+        h1 Lista de compras
+    .w3-container
+        table.w3-table.w3-all
+            tr
+                th Produto
+                th Quantidade
+                th Quem
+                th Data
+                th Estado
+            each compra in compras
+                tr
+                    td= compra.produto
+                    td= compra.quantidade
+                    td= compra.quem
+                    td= compra.data
+                    td= compra.estado
+        a.w3-indigo(href='http://localhost:4011/compras/nova') Adicionar nova compra
+    footer.w3-container.w3-teal
+        address Gerado por lista de compras APP
+    

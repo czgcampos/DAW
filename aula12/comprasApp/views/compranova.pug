@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    header.w3-container.w3-teal
+        h1 Registar Nova Compra
+    .w3-container
+        .w3-card-4
+            form.w3-form(action='/compras', method='POST')
+                input.w3-input(name='produto' type='text' placeholder='Nome do Produto')
+                input.w3-input(name='quantidade' type='text' placeholder='Quantidade')
+                input.w3-input(name='estado' type='text' placeholder='porComprar/Paga')
+                input.w3-btn(type='submit' value='Adicionar Compra')
+    footer.w3-container.w3-teal
+        address Gerado por lista de compras App
+        br
+        a(href='http://localhost:4011/compras') Voltar para lista de compras

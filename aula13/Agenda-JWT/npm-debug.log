@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', 'uuid/v4' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData uuid/v4
+8 silly fetchOtherPackageData uuid/v4
+9 silly cache add args [ 'uuid/v4', null ]
+10 verbose cache add spec uuid/v4
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'uuid/v4',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'uuid/v4',
+11 silly cache add   spec: 'github:uuid/v4',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:uuid/v4.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/uuid/v4.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/uuid/v4.git',
+11 silly cache add      gitUrl: 'git://github.com/uuid/v4.git',
+11 silly cache add      shortcut: 'github:uuid/v4',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/uuid/v4/master/package.json' } }
+12 verbose addRemoteGit caching uuid/v4
+13 verbose addRemoteGit uuid/v4 is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/uuid/v4.git
+15 silly tryClone cloning uuid/v4 via git://github.com/uuid/v4.git
+16 verbose tryClone git-github-com-uuid-v4-git-1f948c96 not in flight; caching
+17 verbose makeDirectory /home/campos/.npm/_git-remotes creation not in flight; initializing
+18 silly makeDirectory /home/campos/.npm/_git-remotes uid: 1000 gid: 1000
+19 info git [ 'clone',
+19 info git   '--template=/home/campos/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'git://github.com/uuid/v4.git',
+19 info git   '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-1f948c96' ]
+20 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-1f948c96: Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-1f948c96'...
+20 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-1f948c96: fatal: remote error:
+20 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-1f948c96:   Repository not found.
+21 silly tryHTTPS attempting to clone git+https://github.com/uuid/v4.git
+22 silly tryClone cloning uuid/v4 via git+https://github.com/uuid/v4.git
+23 verbose tryClone git-https-github-com-uuid-v4-git-193cf2b9 not in flight; caching
+24 info git [ 'clone',
+24 info git   '--template=/home/campos/.npm/_git-remotes/_templates',
+24 info git   '--mirror',
+24 info git   'https://github.com/uuid/v4.git',
+24 info git   '/home/campos/.npm/_git-remotes/git-https-github-com-uuid-v4-git-193cf2b9' ]
+25 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror https://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-https-github-com-uuid-v4-git-193cf2b9: Cloning into bare repository '/home/campos/.npm/_git-remotes/git-https-github-com-uuid-v4-git-193cf2b9'...
+25 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror https://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-https-github-com-uuid-v4-git-193cf2b9: remote: Invalid username or password.
+25 verbose git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror https://github.com/uuid/v4.git /home/campos/.npm/_git-remotes/git-https-github-com-uuid-v4-git-193cf2b9: fatal: Authentication failed for 'https://github.com/uuid/v4.git/'
+26 silly trySSH attempting to clone git@github.com:uuid/v4.git
+27 silly tryClone cloning uuid/v4 via git@github.com:uuid/v4.git
+28 verbose tryClone git-github-com-uuid-v4-git-9994fcab not in flight; caching
+29 info git [ 'clone',
+29 info git   '--template=/home/campos/.npm/_git-remotes/_templates',
+29 info git   '--mirror',
+29 info git   'git@github.com:uuid/v4.git',
+29 info git   '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab' ]
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab'...
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: git@github.com: Permission denied (publickey).
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: fatal: Could not read from remote repository.
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab:
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: Please make sure you have the correct access rights
+30 error git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab: and the repository exists.
+31 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab
+31 silly fetchPackageMetaData Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab'...
+31 silly fetchPackageMetaData Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+31 silly fetchPackageMetaData git@github.com: Permission denied (publickey).
+31 silly fetchPackageMetaData fatal: Could not read from remote repository.
+31 silly fetchPackageMetaData
+31 silly fetchPackageMetaData Please make sure you have the correct access rights
+31 silly fetchPackageMetaData and the repository exists.
+31 silly fetchPackageMetaData
+31 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+31 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+31 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+31 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+31 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+31 silly fetchPackageMetaData  error for uuid/v4 { Error: Command failed: git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab
+31 silly fetchPackageMetaData Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab'...
+31 silly fetchPackageMetaData Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+31 silly fetchPackageMetaData git@github.com: Permission denied (publickey).
+31 silly fetchPackageMetaData fatal: Could not read from remote repository.
+31 silly fetchPackageMetaData
+31 silly fetchPackageMetaData Please make sure you have the correct access rights
+31 silly fetchPackageMetaData and the repository exists.
+31 silly fetchPackageMetaData
+31 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+31 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+31 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+31 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+31 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+31 silly fetchPackageMetaData   killed: false,
+31 silly fetchPackageMetaData   code: 128,
+31 silly fetchPackageMetaData   signal: null,
+31 silly fetchPackageMetaData   cmd: 'git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab' }
+32 silly rollbackFailedOptional Starting
+33 silly rollbackFailedOptional Finishing
+34 silly runTopLevelLifecycles Starting
+35 silly runTopLevelLifecycles Finishing
+36 silly install printInstalled
+37 verbose stack Error: Command failed: git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab
+37 verbose stack Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab'...
+37 verbose stack Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+37 verbose stack git@github.com: Permission denied (publickey).
+37 verbose stack fatal: Could not read from remote repository.
+37 verbose stack
+37 verbose stack Please make sure you have the correct access rights
+37 verbose stack and the repository exists.
+37 verbose stack
+37 verbose stack     at ChildProcess.exithandler (child_process.js:275:12)
+37 verbose stack     at emitTwo (events.js:126:13)
+37 verbose stack     at ChildProcess.emit (events.js:214:7)
+37 verbose stack     at maybeClose (internal/child_process.js:925:16)
+37 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+38 verbose cwd /home/campos/universidade/daw/aula13/Agenda-JWT
+39 error Linux 4.15.0-42-generic
+40 error argv "/usr/bin/node" "/usr/bin/npm" "i" "uuid/v4"
+41 error node v8.10.0
+42 error npm  v3.5.2
+43 error code 128
+44 error Command failed: git clone --template=/home/campos/.npm/_git-remotes/_templates --mirror git@github.com:uuid/v4.git /home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab
+44 error Cloning into bare repository '/home/campos/.npm/_git-remotes/git-github-com-uuid-v4-git-9994fcab'...
+44 error Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+44 error git@github.com: Permission denied (publickey).
+44 error fatal: Could not read from remote repository.
+44 error
+44 error Please make sure you have the correct access rights
+44 error and the repository exists.
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
