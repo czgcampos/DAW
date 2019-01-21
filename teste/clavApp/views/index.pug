@@ -1,0 +1,22 @@
+extends layout
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-blue
+        h3 ClavApp
+      div.w3-container
+        p A CLAV é uma plataforma em desenvolvimento no DI/UM em parceria e sob encomenda da Direção Geral do Livro, Arquivos e Bibliotecas (DGLAB) que visa a classificação e a avaliação de toda a documentação circulante na administração pública portuguesa.
+        p Uma das faces visíveis do projeto é o catálogo dos processos da administração pública portuguesa, designado por Lista Consolidada.
+    h1 Classes de nível 1
+    table.w3-table-all
+      tr
+        th Codigo
+        th Titulo
+        th Id
+      each p in processos
+        tr
+          td
+            a(href= 'c'+p.codigo)= p.codigo
+          td= p.titulo
+          td
+            a(href= p.id)= p.id

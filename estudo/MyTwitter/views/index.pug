@@ -1,0 +1,28 @@
+extends layout
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3 Nova Entreada
+      .w3-container
+        form.w3-container(method="POST" action="/pubs")
+          p
+            h4 Texto: 
+            textarea(name="texto", rows="4", cols="130")
+          p
+            h4 Autor: 
+            input.w3-input(type="text" name="autor")
+          p
+            h4 Palavra-Chave/Hash: 
+            input.w3-input(type="text" name="hash")
+          p
+            input.w3-btn.w3-teal(type="submit" value="Adicionar")
+      header.w3-container.w3-teal
+        h3 Discussões
+      .w3-container
+        each p in pubs
+          div
+            h5= p.autor + ' :: ' + p.hash
+            p= p.texto
+            a.w3-btn.w3-teal(href='/pubs/' + p._id)= 'Gosto (' + p.likes + ')'
+            hr

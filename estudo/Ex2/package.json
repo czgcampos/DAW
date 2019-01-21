@@ -1,0 +1,14 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "ex2",
+  "main": "Strava.js",
+  "scripts": {
+    "test": "node Strava.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "strava-v3": "^1.14.0"
+  }
+}

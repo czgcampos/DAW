@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}
+  footer.w3-container.w3-blue
+    a(href='http://localhost:3000/') Voltar à página inicial
