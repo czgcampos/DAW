@@ -7,8 +7,12 @@ var logger = require('morgan');
 var mongoose = require('mongoose')
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var postsAPIRouter = require('./routes/api/posts')
+var adminRouter = require('./routes/admin');
+var producerRouter = require('./routes/producer');
+var consumerRouter = require('./routes/consumer');
+var adminAPIRouter = require('./routes/api/admin')
+var producerAPIRouter = require('./routes/api/producer')
+var consumerPIRouter = require('./routes/api/consumer')
 
 var app = express();
 
@@ -30,8 +34,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/api/posts', postsAPIRouter)
+app.use('/admin', adminRouter);
+app.use('/producer', producerRouter)
+app.use('/consumer', consumerRouter)
+app.use('/api/admin', adminAPIRouter)
+app.use('/api/producer', producerAPIRouter)
+app.use('/api/consumer', consumerPIRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,0 +1,28 @@
+extends header
+block content
+	each p in lista
+		div
+			h4
+				a(href='')= p.autor
+			br
+			if p.categoria
+				p= p.categoria
+				br
+			if p.hashtag
+				p= p.hashtag
+				br
+			p= p.data
+			br
+			p= p.texto
+			br
+			if p.ficheiro
+				p= p.ficheiro
+				br
+			p= p.likes
+			br
+			each c in p.comentarios
+				h5
+					a(href='')= c.autor
+				br
+				p= c.comentario
+				br

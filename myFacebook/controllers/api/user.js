@@ -1,11 +1,21 @@
-var mongoose = require('mongoose')
-var Schema = mongoose.Schema
+var User = require('../../models/user')
 
-var UserSchema = new Schema({
-	name: {type: String, required: true},
-	email: {type: String, required: true},
-	password: {type: String, required: true},
-	image: {type: Buffer}
-})
+// Lista de utilizadores
+module.exports.users = () => {
+	return User
+		.find()
+		.sort({nome: -1})
+		.exec()
+}
 
-module.exports = mongoose.model('Users', UserSchema, 'users')
+// Devolve a informação de um user pelo email
+module.exports.post = email => {
+	return User
+		.findOne({email: email})
+		.exec()
+}
+
+// Insere um user
+module.exports.inserirUser = user => {
+	return User.create(user)
+}

@@ -1,0 +1,20 @@
+extends layout
+block header
+	.w3-card-4
+		header.w3-container.w3-grey
+			h1 
+				a.w3-btn(href='http://localhost:5000/') MyFacebook
+		.w3-container
+			.w3-row
+				.w3-col.m4.l2
+					ul.w3-ul
+						li
+							a.w3-btn.w3-hover-grey(href='http://localhost:5000/feed', style='width:100%') Feed
+						li
+							a.w3-btn.w3-hover-grey(href='http://localhost:5000/aboutme', style='width:100%') About Me
+						li
+							a.w3-btn.w3-hover-grey(href='http://localhost:5000/editcount', style='width:100%') Edit Count
+						li
+							a.w3-btn.w3-hover-grey(href='http://localhost:5000/addpost', style='width:100%') Add Post
+				.w3-col.m8.l10
+					block content
