@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/compositores', function(req, res) {
   axios.get('http://localhost:3000/api/compositores')
-    .then(resposta=> res.render('index', { compositores: resposta.data }))
+    .then(resposta=> res.jsonp(dados))
     .catch(erro => {
       console.log('Erro ao carregar dados da BD.')
       res.render('error', {error: erro, message: "Erro ao carregar dados da BD."})

@@ -9,7 +9,7 @@ module.exports.listar = () => {
 
 module.exports.incrementar = pid => {
     return Pub
-        .findOne({_id: eid})
+		.update({_id: pid},{$inc: {likes: 1}})
         .exec()
 }
 
