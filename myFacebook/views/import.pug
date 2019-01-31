@@ -1,0 +1,7 @@
+extends header
+block content2
+	.w3-container(style='text-align:center;padding-top:80px;max-width:500px;margin:0 auto;')
+		.w3-card-4
+			form.w3-container(method="POST" action="/importar" enctype='multipart/form-data')
+				input.w3-input(style='margin-top:10px;width:400px' type="file" name="ficheiro")
+				input.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(type="submit" value="Importar" style='margin-top:10px;margin-bottom:20px;float:right')

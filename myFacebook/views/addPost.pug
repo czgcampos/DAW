@@ -1,1 +1,31 @@
-extends layout
+extends header
+block content
+	.w3-container
+		.w3-card-4
+			header.w3-container.w3-costum-color-1
+				h1 
+					a.w3-btn.w3-hover-costum-color-2(href='http://localhost:5000/') MyFacebook
+					a.w3-btn.w3-hover-costum-color-2(href='http://localhost:5000/users/logout' style='float:right') Logout
+			.w3-container
+				h3 Adicionar Publicação
+				form.w3-container(method="POST" action="/adicionarpost")
+					input.w3-input.w3-costum-color-5(type="text" name="hashtag" placeholder="Hashtag" style='margin-top:10px')
+					select.w3-input(style='margin-top:10px' name='categoria' placeholder="Hashtag" required)
+						option(value='' hidden) Categoria
+						option(value='fotografia') Fotografia
+						option(value='video') Vídeo
+						option(value='opiniao') Opinião
+						option(value='pensamentosolto') Pensamento Solto
+						option(value='registodesportivo') Registo Desportivo
+						option(value='registoacademico') Registo Académico
+						option(value='noticia') Notícia
+						option(value='evento') Evento
+						option(value='ficheiro') Ficheiro
+						option(value='musica') Música
+					select.w3-input(style='margin-top:10px' name='privacidade' required)
+						option(value='' hidden) Visibilidade
+						option(value='publico') Publico
+						option(value='privado') Privado
+					textarea.w3-input.w3-costum-color-5(style='margin-top:10px' name='texto' rows='8' cols='132' placeholder='Descrição...')
+					input.w3-input(style='margin-top:10px' type="file" name="ficheiro")
+					input.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(type="submit" value="Adicionar" style='margin-top:10px;margin-bottom:20px;float:right')

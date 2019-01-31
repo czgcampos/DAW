@@ -1,20 +1,29 @@
 extends layout
-block header
+block content
 	.w3-card-4
-		header.w3-container.w3-grey
+		header.w3-container.w3-costum-color-1
 			h1 
-				a.w3-btn(href='http://localhost:5000/') MyFacebook
+				a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge(href='http://localhost:5000/') MyFacebook
+				a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge(href='http://localhost:5000/logout' style='float:right') Logout
 		.w3-container
 			.w3-row
 				.w3-col.m4.l2
 					ul.w3-ul
 						li
-							a.w3-btn.w3-hover-grey(href='http://localhost:5000/feed', style='width:100%') Feed
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/feed', style='width:100%') Feed Notícias
 						li
-							a.w3-btn.w3-hover-grey(href='http://localhost:5000/aboutme', style='width:100%') About Me
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/adicionarpost', style='width:100%') Adicionar Post
 						li
-							a.w3-btn.w3-hover-grey(href='http://localhost:5000/editcount', style='width:100%') Edit Count
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/perfilpublico', style='width:100%') Feed Publico
 						li
-							a.w3-btn.w3-hover-grey(href='http://localhost:5000/addpost', style='width:100%') Add Post
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/perfilprivado', style='width:100%') Feed Privado
+						li
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/editarconta', style='width:100%') Editar Conta
+						li
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/sobremim', style='width:100%') Sobre Mim
+						li
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/importar', style='width:100%') Importar
+						li
+							a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='http://localhost:5000/exportar', style='width:100%') Exportar
 				.w3-col.m8.l10
-					block content
+					block content2

@@ -1,1 +1,22 @@
-extends header
+extends layout
+block content
+	.w3-container(style='text-align:center;padding-top:50px;max-width:400px;margin:0 auto;')
+		.w3-card-4
+			header.w3-container.w3-costum-color-1
+				h1 myFacebook
+			div
+				h3 Registar
+			div
+				form.w3-container(method="POST" action="/registar")
+					input.w3-input.w3-costum-color-5(type="text" name="nome" placeholder="Nome" style='margin-top:10px' required)
+					input.w3-input.w3-costum-color-5(type="text" name="nickname" placeholder="Nickname" style='margin-top:10px' required)
+					input.w3-input.w3-costum-color-5(type="text" name="email" placeholder="Email" style='margin-top:10px' required)
+					input.w3-input.w3-costum-color-5(type="password" name="password" placeholder="Password" style='margin-top:10px' required)
+					input.w3-input.w3-costum-color-5(type="password" name="password2" placeholder="Repetir password" style='margin-top:10px' required)
+					input.w3-input.w3-costum-color-5(type='date' name='dataNascimento' style='margin-top:10px')
+					select.w3-input.w3-costum-color-5(style='margin-top:10px' name='genero' required)
+						option(value='' hidden) Género
+						option(value='masculino') Masculino
+						option(value='feminino') Feminino
+					input.w3-input.w3-costum-color-5(type="text" name="localidade" placeholder="Morada" style='margin-top:10px' required)
+					input.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(type="submit" value="Registar" style='margin-top:10px;margin-bottom:20px')

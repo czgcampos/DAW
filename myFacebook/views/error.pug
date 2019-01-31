@@ -1,6 +1,11 @@
-extends header
-
+extends layout
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+	.w3-container
+		.w3-card-4
+			header.w3-container.w3-costum-color-1
+				h1 
+					a.w3-btn.w3-hover-costum-color-2(href='http://localhost:5000/') MyFacebook
+			.w3-container
+				h2= message
+				h3= error.status
+				pre #{error.stack}

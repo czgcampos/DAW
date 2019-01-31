@@ -8,28 +8,27 @@ block content2
 						a= p.autor
 					h5(style='display:inline-block;float:right') Categoria: 
 						if p.categoria
-							a(href='/feed?categoria='+p.categoria)= p.categoria
+							a(href='gukjn')= p.categoria
 				div.w3-border(style='padding:10px')
-					h6(style='display:inline-block;padding:5px')
+					h6(style='display:inline-block;')
 						if p.hashtag
-							a(href='/feed?hashtag='+p.hashtag) ##{p.hashtag}
+							a(href='sdsf') ##{p.hashtag}
 					h6(style='display:inline-block;float:right')
 						if p.data
-							p(style='float:right')= p.data
-				div.w3-border(style='padding:10px')
-					if p.ficheiro
-						img(src=p.ficheiro)
+							a(href='gukjn' style='float:right')= p.data
+					br
+					a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='/posts/privacidade/'+p._id) Editar Privacidade
 				div.w3-border(style='padding:10px')
 					p= p.texto
 					a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='/posts/like/'+p._id style='padding-left:50px;padding-right:50px') Like: (#{p.likes})
 					a.w3-btn.w3-hover-costum-color-2.w3-round-xxlarge.w3-costum-color-1(href='https://www.facebook.com/sharer/sharer.php?u=http://google.pt&quote='+p.texto style='padding-left:50px;padding-right:50px;float:right') Partilhar
 				div.w3-border(id='comentarios' style='padding:10px')
-					h5(style='display:inline-block;padding-left:10px') Comentários:
+					h5(style='display:inline-block;') Comentários:
 					hr
 					if p.comentarios
 						each c in p.comentarios
 							h5(style='padding-left:10px;display:inline-block;') Autor: 
-								a= c.autor
+								a(href='sdsf')= c.autor
 							p(style='padding-left:10px;padding-right:10px')= c.comentario
 							hr
 				div.w3-border(style='padding:10px')

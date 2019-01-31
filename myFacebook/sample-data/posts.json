@@ -1,0 +1,66 @@
+[
+	{
+		"autor":"czgcampos",
+		"data": "2019-01-25T18:25:43.511Z",
+		"texto":"Aliquam tincidunt sodales purus in tristique. Donec ornare turpis sed tempus bibendum. In interdum eget arcu et scelerisque. Mauris eros magna, vehicula ac est ac, vestibulum ultricies mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae dolor enim. Nam lacinia facilisis est, ac facilisis massa eleifend et. Suspendisse nec diam felis. Mauris id lobortis ex. Morbi ut nulla vehicula, venenatis turpis non, sodales ante. Quisque mollis rutrum faucibus. Proin pharetra nulla purus, et tincidunt felis iaculis a. Praesent aliquet eu arcu sed lacinia. Curabitur eget volutpat augue. Sed ante nunc, porttitor rutrum ultrices non, tincidunt et diam.\nNulla quis fermentum ante. Maecenas in congue diam, sit amet congue nisi. Integer bibendum, urna eget congue luctus, ipsum massa lobortis metus, in imperdiet quam ligula quis ante. Nam lacinia arcu dui, ultricies molestie nibh scelerisque mattis. Mauris semper ex sit amet neque ultrices cursus. Nullam maximus velit dui, quis blandit mi malesuada quis. Nulla commodo iaculis dolor, sed maximus felis egestas non. Praesent venenatis risus at lorem elementum mollis. In scelerisque quam id finibus laoreet. Ut convallis turpis eu consequat sollicitudin.",
+		"categoria":"Noticias",
+		"likes":5,
+		"hashtag":"yoyo",
+		"privacidade":true,
+		"comentarios":[
+			{
+				"autor":"hugocarvalho9",
+				"comentario":"Nulla vel consequat velit. Suspendisse quam libero, aliquet sit amet facilisis sit amet, bibendum in mi. Praesent aliquet fermentum quam, ac aliquet odio congue a. Vivamus finibus neque a nibh aliquam, vulputate lacinia felis aliquet. Fusce ullamcorper eget felis sit amet feugiat. Maecenas lorem leo, dignissim eu diam et, tincidunt tempus nunc. Quisque cursus suscipit gravida. Proin sed nulla ac nibh egestas ultrices ut sit amet nulla. In massa nunc, congue vitae ex eu, hendrerit porttitor ligula. Sed sagittis nisl eu est egestas convallis. Quisque placerat magna non libero laoreet, quis tempor purus mollis. Nulla aliquam erat eu convallis rutrum."			},
+			{
+				"autor":"czgcampos",
+				"comentario":"Suspendisse condimentum eros at diam congue efficitur. Fusce tempor metus vel eros pulvinar, vel pulvinar nunc scelerisque. Etiam sed vestibulum lorem. Vivamus non nisl nibh. Ut in purus semper, pharetra enim ut, ullamcorper neque. Aliquam non ipsum at nisl interdum porta vel et est. Pellentesque dignissim efficitur gravida. Etiam eu quam tortor. Aenean sit amet enim et elit consectetur porta. Proin interdum iaculis vulputate."
+			}
+		]
+	},
+	{
+		"autor":"hugocarvalho9",
+		"data": "2019-01-26T18:25:43.511Z",
+		"texto":"Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur accumsan diam ac est sollicitudin, non vulputate tortor consequat. Proin quis enim et risus tempus vulputate. Quisque in placerat purus, ac venenatis massa. In eu tempus enim, nec cursus dui. Suspendisse eu velit urna. Vivamus orci libero, porta quis sapien sed, eleifend iaculis lacus. Nullam eget velit sit amet est tincidunt sagittis. Ut sed ex vitae erat pellentesque ultricies vitae eleifend nisl. Ut lectus massa, viverra id elit vehicula, lacinia tincidunt nisl. Morbi ut dui at nisl aliquam tristique nec vitae est. Vivamus interdum posuere suscipit. Sed sit amet nunc auctor, cursus nibh vel, sodales purus. Cras eget orci enim.",
+		"categoria":"Eventos",
+		"likes":3,
+		"hashtag":"blabla",
+		"privacidade":false,
+		"comentarios":[
+			{
+				"autor":"czgcampos",
+				"comentario":"Ut ultrices lorem neque, eget vehicula nunc iaculis vitae. Suspendisse nec enim gravida, commodo velit ac, commodo quam. Mauris nec gravida risus. Curabitur ac sem commodo, accumsan enim at, vestibulum mauris. Nulla ultrices libero at elit feugiat ullamcorper. Curabitur eu nunc sit amet nisl sollicitudin bibendum quis sit amet lorem. Nullam id lacus non sapien dictum sollicitudin. Fusce in sem quam. In hac habitasse platea dictumst."
+			}
+		]
+	},
+	{
+		"autor":"hugocarvalho9",
+		"data": "2019-01-27T18:25:43.511Z",
+		"texto":"Nulla mollis sed elit et porta. Integer tincidunt dolor eu arcu pellentesque, eget tincidunt ligula accumsan. Sed tristique aliquam ex eget porta. Vivamus fermentum congue mattis. Ut posuere purus ac augue blandit, vel efficitur purus vestibulum. Phasellus ut velit dictum, luctus erat quis, laoreet nisl. Quisque efficitur suscipit augue non facilisis. Nunc eget lobortis lacus. Sed id elementum lorem, ac imperdiet diam. Sed ac pulvinar diam. Nunc cursus tellus a purus faucibus, ut tristique risus accumsan. Etiam lobortis risus est, porta pulvinar neque congue eu. Cras vel arcu id sem porta aliquam. Fusce ultrices ipsum purus, vel commodo lacus ultrices eget. Quisque sed urna nec lorem scelerisque tincidunt. Curabitur nunc turpis, consectetur eu dolor sed, pretium ornare augue.",
+		"categoria":"Noticias",
+		"hashtag":"pois",
+		"likes":0,
+		"privacidade":true,
+		"ficheiro":"/media/carloscampos.jpeg",
+		"comentarios": []
+	},
+	{
+		"autor":"czgcampos",
+		"data": "2019-01-28T18:25:43.511Z",
+		"texto":"Curabitur nunc justo, tincidunt ac libero sed, finibus tempus mi. Donec tellus felis, efficitur quis dui a, rhoncus vulputate nisi. Sed porttitor, magna eu porttitor accumsan, elit orci bibendum purus, at fermentum augue ante quis mi. Integer nisl felis, fermentum in vestibulum at, hendrerit et est. Sed eu nisl leo. Pellentesque congue neque neque, nec eleifend lacus tempor nec. Duis diam nunc, tincidunt quis elementum id, feugiat viverra tortor. Nullam tristique sapien quis sapien dignissim ullamcorper.",
+		"categoria":"Noticias",
+		"likes":10,
+		"hashtag":"pois",
+		"privacidade":true,
+		"ficheiro":"/media/hugocarvalho.jpg",
+		"comentarios":[
+			{
+				"autor":"hugocarvalho9",
+				"comentario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada at ligula rhoncus mattis. Cras sollicitudin gravida felis ut lacinia. Proin ultrices dapibus justo, et imperdiet ligula tempor tempor. Nullam sollicitudin augue condimentum eros porta, ac tristique felis mollis. Sed ut ante ut nisi semper posuere tincidunt id felis. Etiam non purus dolor."
+			},
+			{
+				"autor":"czgcampos",
+				"comentario":"Sed eget elementum lorem. Donec lacinia nunc ac tortor commodo, eget molestie lacus sagittis. Etiam placerat mauris sit amet lacus gravida efficitur. Aenean rhoncus consequat erat, quis interdum risus viverra non. Proin sagittis leo id dui malesuada semper. Nullam ac nunc convallis, bibendum arcu ac, varius nunc. Mauris non suscipit dui. Mauris est massa, efficitur quis enim eu, condimentum porta odio."
+			}
+		]
+	}
+ ]
